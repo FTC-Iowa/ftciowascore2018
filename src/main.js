@@ -1,4 +1,18 @@
 import Vue from 'vue'
+
+// Vue Material Library
+import VueMaterial from 'vue-material'
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
+Vue.use(VueMaterial);
+
+
+
+
+
+
+
+
 import App from './App.vue'
 
 Vue.config.productionTip = false
